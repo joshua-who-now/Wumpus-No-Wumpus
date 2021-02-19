@@ -22,34 +22,19 @@ By default the movement probabilities are as follows:
 • Move Left: .1 or 10%
 
 
-
 The input should be given in the form of a textfile, similar to the examples provided in the Github Repository containing the following information used for the properties of the world and the algorithm:
-
 • size of world
-
 • terminal states
-
 • walls
-
 • reward values
-
 • transition probabilities
-
 • discount rate
-
 • epsilon
 
 
-
-
-
-
 The resulting output should contain the following:
-
 • A record of the values of each tile of the world during each iteration
-
 • A final policy containing the termination values of the MDP's evaluation.
-
 • A board containing the movements/path that one would for the highest reward.
 
 
