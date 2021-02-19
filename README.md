@@ -14,18 +14,41 @@ Each each tile (except for the walls) has a "reward" value that is used in the c
 The actions are defined in probabilistic movements in which the outcomes of your movements are partially random in this case, the movements allowed are move forward, move right, or move left.
 
 By default the movement probabilities are as follows:
+
 • Move Forward .8 or 80%
+
 • Move Right: .1 or 10%
+
 • Move Left: .1 or 10%
 
 
 
-The input should be given in the form of a sequence of numbered tiles for initial board configuration, ‘0’ indicating the empty space.
+The input should be given in the form of a textfile, similar to the examples provided in the Github Repository containing the following information used for the properties of the world and the algorithm:
+• size of world
+
+• terminal states
+
+• walls
+
+• reward values
+
+• transition probabilities
+
+• discount rate
+
+• epsilon
+
+
+
 
 The resulting output should contain the following:
+
 • A record of the values of each tile of the world during each iteration
+
 • A final policy containing the termination values of the MDP's evaluation.
+
 • A board containing the movements/path that one would for the highest reward.
+
 
 # Closing Regards
 Implementation is my own work, however, references to the AIMA database can be found here: http://aima.cs.berkeley.edu/ with reference to the textbook "Artificial Intelligence: A Modern Approach 3rd Edition."
