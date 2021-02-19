@@ -24,6 +24,7 @@ By default the movement probabilities are as follows:
 
 
 The input should be given in the form of a textfile, similar to the examples provided in the Github Repository containing the following information used for the properties of the world and the algorithm:
+
 • size of world
 
 • terminal states
@@ -37,6 +38,8 @@ The input should be given in the form of a textfile, similar to the examples pro
 • discount rate
 
 • epsilon
+
+
 
 
 
