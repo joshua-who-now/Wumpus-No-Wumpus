@@ -12,10 +12,12 @@ In this generic grid environment, each tile had the property of having a normal 
 Each each tile (except for the walls) has a "reward" value that is used in the calculation of the 
 
 The actions are defined in probabilistic movements in which the outcomes of your movements are partially random in this case, the movements allowed are move forward, move right, or move left.
+
 By default the movement probabilities are as follows:
-Move Forward .8 or 80%
-Move Right: .1 or 10%
-Move Left: .1 or 10%
+• Move Forward .8 or 80%
+• Move Right: .1 or 10%
+• Move Left: .1 or 10%
+
 
 
 The input should be given in the form of a sequence of numbered tiles for initial board configuration, ‘0’ indicating the empty space.
