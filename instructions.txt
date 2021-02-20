@@ -1,0 +1,15 @@
+In order to run the code:
+Step1: Extract files to preferred directory
+Step2: Open command line and navigate into the "Wumpus-No-Wumpus/out/production/CS411_mdp/" path
+Step3: Run command "java Main" to compile my Main.class contained within the directory path
+Step4: Input valid directory location of .txt file formatted after the sample mdp_input example 	
+       e.g. C:\Users\UserName\Documents\example_directory_mdp
+       NOTE:(mispellings in original .txt file, I have revised and attached a new .txt file with corrected spelling but same formatting can modify given file or
+	     revise original given .txt file with correct spelling)
+
+Step5: If path not valid, repeat steps 3-5.
+Step6: If testing multiple times, repeat steps 3-6.
+
+To Access Source Code: Navigate to file path "Wumpus-No-Wumpus/src/" for 'Main' and 'ValueIterationAlgorithm'
+		       Other files located here: 'WorldProperty', 'xyLocation', 'GridProperty'
+		       Summaries of each Java class provided within each class as a header
