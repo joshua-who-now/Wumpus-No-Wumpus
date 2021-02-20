@@ -4,7 +4,6 @@ Implementing Markov's Decision Process into a generic gridworld environment simi
 # Description
 Originally a homework assignment for CS411 (Artificial Intelligence I) at UIC.
 
-I took what I had previously submitted as a Java project for my Artificial Intelligence class at UIC and reformatted the project into the Python Programming language as well.
 This project takes a textfile input containing the description of a Wumpus-like World and factors used for the Markov Decision Process algorithm (size of world, terminal states, walls, reward values, transition probabilities, discount rate, epsilon). After taking in valid input, the program will run and display the value iterations at each step until a final policy is reached. Once the final policy is reached, the program will also show the optimal route one must take (in terms of the cardinal directions [N,E,S,W]) at any starting position to maximize reward.
 
 # Implementation Details: 
@@ -17,9 +16,9 @@ By default the movement probabilities are as follows:
 
 • Move Forward .8 or 80%
 
-• Move Right: .1 or 10%
-
 • Move Left: .1 or 10%
+
+• Move Right: .1 or 10%
 
 
 The input should be given in the form of a textfile, similar to the examples provided in the Github Repository containing the following information used for the properties of the world and the algorithm:
