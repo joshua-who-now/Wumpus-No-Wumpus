@@ -4,13 +4,15 @@ Implementing Markov's Decision Process into a generic gridworld environment simi
 # Description
 Originally a homework assignment for CS411 (Artificial Intelligence I) at UIC.
 
-This project takes a textfile input containing the description of a Wumpus-like World and factors used for the Markov Decision Process algorithm (size of world, terminal states, walls, reward values, transition probabilities, discount rate, epsilon). After taking in valid input, the program will run and display the value iterations at each step until a final policy is reached. Once the final policy is reached, the program will also show the optimal route one must take (in terms of the cardinal directions [N,E,S,W]) at any starting position to maximize reward.
+This project takes a textfile input containing the description of a Wumpus-like World and factors used for the Markov Decision Process algorithm (size of world, terminal states, walls, reward values, transition probabilities, discount rate, epsilon). After taking in valid input, the program will run and display the value iterations at each step until equilibrium is reached. Once the final policy is reached, the program will also show the optimal route one must take (in terms of the cardinal directions [N,E,S,W]) at any starting position to maximize reward.
 
 # Implementation Details: 
 In this generic grid environment, each tile had the property of having a normal tile, being a terminal state, being a wall, or being a pitfall.
-Each each tile (except for the walls) has a "reward" value that is used in the calculation of the 
 
-The actions are defined in probabilistic movements in which the outcomes of your movements are partially random in this case, the movements allowed are move forward, move right, or move left.
+Using the supplied parameters for the algorithm given the input, we use the Bellman equation as the fundamental basis for performing solving MDP. This equation is what will determine the values of each tile per iteration until equilibrium is reached.
+
+
+The actions are defined in probabilistic movements in which the outcomes of your movements are partially random in this case, the movements allowed are move forward, move left, or move right.
 
 By default the movement probabilities are as follows:
 
